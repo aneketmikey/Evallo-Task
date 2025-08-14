@@ -1,0 +1,38 @@
+.root{
+    background: #eee;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+      background: #eee;
+  flex-direction: column;
+}
+
+.app-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.app-main {
+  margin-top: 4rem;
+  background: #eee; /* Ensures content starts below fixed nav */
+
+}

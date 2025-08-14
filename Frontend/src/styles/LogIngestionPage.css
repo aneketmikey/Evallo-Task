@@ -1,0 +1,96 @@
+.log-ingestion-form {
+  width: 100%;
+  background: #eee;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.log-ingestion-title {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.log-ingestion-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.log-ingestion-select {
+  width: 20%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background: #eee;
+  cursor: pointer;
+}
+
+.log-ingestion-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  resize: vertical;
+  height: 50px;
+  font-family: monospace;
+}
+
+.log-ingestion-button {
+  display: flex;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 0 auto;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.log-ingestion-button:hover {
+  background-color: #0056b3;
+}
+
+.log-ingestion-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.log-ingestion-status {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.log-ingestion-status-success {
+  color: #28a745;
+}
+
+.log-ingestion-status-error {
+  color: #dc3545;
+}
+
+.log-ingestion-input:focus,
+.log-ingestion-select:focus,
+.log-ingestion-textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
