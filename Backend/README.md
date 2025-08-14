@@ -34,7 +34,8 @@ It provides a RESTful API to ingest structured log data and query/filter logs us
 
    Add `.env` file with your configuration:
 
-   ```BACKEND_SERVER_PORT=3000
+   ```bash
+   BACKEND_SERVER_PORT=3000
    ```
 
 4. **Start the server**
@@ -221,3 +222,4 @@ It is ideal for **moderate-scale logging systems** where:
 - Log ingestion is straightforward.
 - Read operations outnumber writes.
 - Sequential file scans are acceptable given the operational constraints.
+
