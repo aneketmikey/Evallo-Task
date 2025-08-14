@@ -1,0 +1,1 @@
+This is a evallo assignment task for query ingestion and analysis system. It has both frontend and backend. The frontend is in React and backend is in Nodejs. Please refer further the README file in both the folders of frontend and backend to understand both the systems.
